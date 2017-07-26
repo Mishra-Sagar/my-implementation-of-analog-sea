@@ -1,7 +1,19 @@
 body {
   background: #298eea;
+  font-size: 18px;
+
   font-family: "Roboto", helvetica, sans-serif;
   padding: 60px 0 0;
   margin: 0;
-  font-size: 18px;
+}
+
+ * {
+	box-sizing: border-box;
+}
+
+.analogo{
+	height: 35px;
+	display: block;
+	width:auto;
+	margin: 0 auto 30px;
 }
