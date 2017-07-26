@@ -82,3 +82,26 @@ input[type="submit"] {
 	margin: 10px auto 20px; 
 	transition: opacity 0.4s;
 }
+
+button[type="submit"] {
+  height: auto;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  background: #15CD72;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 0;
+  
+}
+input[type="email"]:focus,
+input[type="password"]:focus,
+button[type="submit"]:focus {
+ /* Restore desirable focus behavior 
+ in non-webkit browsers like Firefox */
+ outline: auto 2px #87ceeb;
+ /* Preseve default focus behavior in webkit browsers */
+ outline: auto 5px -webkit-focus-ring-color;
+ box-shadow: 0;
+}
